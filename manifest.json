@@ -432,7 +432,7 @@
       "output": {
         ".html": {
           "relative_path": "home/techguides/clone-environment.html",
-          "hash": "O2JSyJNNtIlvEYJPx8+0wA=="
+          "hash": "EGHzpUjcpU5WMiJYgmF0hA=="
         }
       },
       "is_incremental": false,
@@ -1042,6 +1042,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "home/techguides/images/clone-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "home/techguides/images/clone-button.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "home/techguides/images/clone-env-button-disabled.png",
       "output": {
         "resource": {
@@ -1068,6 +1079,17 @@
       "output": {
         "resource": {
           "relative_path": "home/techguides/images/clone-env-creating.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "home/techguides/images/clone-env-details.png",
+      "output": {
+        "resource": {
+          "relative_path": "home/techguides/images/clone-env-details.png"
         }
       },
       "is_incremental": false,
@@ -4329,10 +4351,6 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -4344,6 +4362,10 @@
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         }
