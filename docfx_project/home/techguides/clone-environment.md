@@ -22,13 +22,14 @@ Please see below some explanations on how this process works and what are the re
 
 - Select the environment that you want to clone and press **Clone environment** button.
 
-![](./images/clone-env-press-clone.png) 
+![](./images/clone-button.png) 
 
 <br>
 
 - Input a **Name** and **Description** and optionally, a *Label*, then click **Clone environment**. 
+- You will get a notification on the screen that the environment cloning has been initiated.
 
-![](./images/clone-env-new.png) 
+![](./images/clone-env-details.png) 
 
  - At this point, there will be created: a New address and a GitHub endpoint with the same content as the cloned one and also a cloned Database (the export of the database is triggered).
  - The new (clone-environment) will have the same template as the source environment.
