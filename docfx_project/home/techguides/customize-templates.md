@@ -13,23 +13,32 @@ To start customizing your environment built using a Temenos Cloud template, logi
 
 ![boost 1](./images/customize-templates-button.png)
 
-After clicking the Boost button, the status of Repository application is changed to <span style="color:orange">Boosting</span>, as per bellow picture. The operation triggered by the Boost button will copy in environment repository all the template files used to create the environment.
+After clicking the Boost button, you will receive a notification message - 'Customize your scripts' - referring to this user guide and agreeing with the action.
+
+The message 'Repository boosting initiated!" appears on the screen and the status of Repository application is changed to <span style="color:orange">Boosting</span>, as per bellow picture. The operation triggered by the Boost button will copy in environment repository all the template files used to create the environment.
 ![boost 2](./images/customize-templates-boost.png)
+
+> [!Note]
+> Click the **Refresh List** button to see when boosting action is completed.
+> 
+> Also below the environment description, following message is displayed "Scripts are customized for this environment." and the button **Save as a new template** appears. 
 
 
 ## Repository structure after Boost
 As stated above, the Boost operation will make changes to environment repository. The difference between the before and after boost environment repository versions is represented by the presence of <span style="color:red">environments</span> folder, as it can be observed bellow.
 ![boost 4](./images/customize-templates-after-boost.png)
 
-The structure of the <span style="color:red">environments</span> folder is represented by 3 folders:
+The structure of the <span style="color:red">environments</span> folder is represented by 4 folders *(found under common folder)*:
+- extraPlays
 - infra-templates
 - playbooks
 - roles
-![boost 5](./images/customize-templates-folders.png)
+![boost 5](./images/customize-templates-structure.png)
 
 The description of each folder is presented bellow:
 | Folder Name        | Folder <br />Description	|
 |-					         |-		                |
+|extraPlays     | This folder yml configuration files related to the template used in the creation of the environment. |
 |infra-templates     | This folder contains an **infratemplate.yml** file that describes the template of your environment (i.e. information related to the applications that are installed in your environment and VM specifications in which environment applications are deployed.). |
 |playbooks           | This folder contains a **playbook.yml** file that describes the set of roles that will be installed for each host(VM) defined under *<span style="color:#010466;font-weight:600;">[services][servers]</span>* component in *<span style="color:#D2940F;font-weight:600;">infratemplate.yml</span>* file.  |
 |roles               | This folder contains all the roles defined for your template.  |
@@ -95,6 +104,18 @@ There are several ways in which you can customize your environment template base
    > [!Note]
    > If the deployment operation is not successful for your changes, please rebuild the environment.
 
-The PaaS catalogue of available templates can be cheched **<a href="../temenos-cloud-templates.md" target="blank">here</a>**.
+The PaaS catalogue of available templates can be checked **<a href="../temenos-cloud-templates.md" target="blank">here</a>**.
 
 <!-- <br /><span style="font-size:20px">text</span> -->
+
+## Save New Template
+
+After doing the above steps (template customization), go to Save as a new template button and fill the required fields, as in the example below:
+
+![boost 7](./images/customize-save-template.png)
+
+You will see a message on the screen "Environment saved as a new template".
+
+Go to Templates Catalog and search for the new template, which should be available in the templates list.
+
+![](./images/customize-search-catalog.png)
