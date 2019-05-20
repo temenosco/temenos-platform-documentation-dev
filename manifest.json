@@ -4300,6 +4300,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "home/technical-overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/technical-overview.html",
+          "hash": "AthZ/pgJMJ+BRqZlA/tJyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "home/temenos-cloud-templates.md",
       "output": {
         ".html": {
@@ -4316,7 +4328,7 @@
       "output": {
         ".html": {
           "relative_path": "home/toc.html",
-          "hash": "luyMfEQeJlx2hXwReLwgzA=="
+          "hash": "2zmbc5Qcv5lM5QV7r0y1RQ=="
         }
       },
       "is_incremental": false,
@@ -4390,14 +4402,14 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "RestApiDocumentProcessor": {
