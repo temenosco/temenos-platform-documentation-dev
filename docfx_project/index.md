@@ -49,3 +49,58 @@ Service definition - Click [**here**](./home/overview.md) -- ***to update*** -- 
 
 <img src="./images/arrow.png" align="left" width="37" height="37"> &nbsp; <span style="background-color: #dcf0f4;color:#010466;font-weight:1000;font-size:16pt">Technical Overview</span>
 
+This section shows the current state deployment architecture of the TCD  platform.
+
+The deployment allows for some orgs to be hosted within the Temenos cloud and others to be hosted on the Customer's Azure subscription.
+
+![](./images/deployment-architecture.png)
+*Figure : Deployment View*
+
+<br>
+
+
+- Each component within the current state architecture is exposed over public internet with a public IP address (PIP).
+
+- Firewalls are embedded into the Virtual Machines.
+
+- Each Azure resource as per the diagram above has its own basic Network Security Group NSG rules implemented.
+
+- There are 2 installations of the Configuration Management software (Ansible), each piggy-backed onto another VM.
+Jenkins is used for both internal CI purposes and for building sandboxes.
+
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;<span style="color:#010466;font-weight:1000;font-size:16pt">Command Line Access</span>
+
+Command line access to the Sandbox Virtual Machines is restricted to Temenos employees only. Access is granted to users who have a SSH key which is shared amongst Temenos employees who need Command Line access.
+
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;<span style="color:#010466;font-weight:1000;font-size:16pt">Development and Release Process</span>
+
+The practice of Continuous Integration is currently followed, with developers of the TCD platform checking features into 'feature branches' frequently, and automated builds/tests being executed by the CI server (Jenkins) to verify fundamental sanity checks of the changes. 
+
+The TCD source code branching method includes the concept of a 'master' branch, which means all development is performed on feature branches, and changes are only ever merged onto the master. This means that the master branch is always production ready. The precise 'release to production' process is currently being aligned across the core components (Infra Module, Controller, Portal), and varies on a per-component basis, however the majority of change migration is performed using a standardised CI pipeline (on Jenkins) in the form of a push-button migration. 
+
+Changes are only migrated to production following certain quality check procedures; including code review, functional test and documentation where applicable.
+
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;<span style="color:#010466;font-weight:1000;font-size:16pt">Patching and Upgrades Process</span>
+
+Patching and upgrades of software/libraries used by the TCD platform is currently performed on an ad-hoc basis depending on criticality and feature requirements.
