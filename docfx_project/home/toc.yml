@@ -6,10 +6,10 @@
     - name: Temenos Cloud Templates
       href: ./temenos-cloud-templates.md
 - name: Extend
-  href: ./techguides/index.md
+  href: ./extend.md
   items:
    - name: How to...
-     href: ./test.md
+     href: ./how-to-extend.md
      items:
        - name: Create users
          href: ./techguides/user-creation-in-paas.md
@@ -57,10 +57,10 @@
        - name: FCM Cloud Configuration
          href: ./fcm-configuration-video.md   
 - name: Assemble
-  href: ./techguides/index.md
+  href: ./assemble.md
   items:
    - name: How to...
-     href: ./test2.md
+     href: ./how-to-assemble.md
      items:
        - name: Setup/Edit/Delete Streams
          href: ./techguides/stream.md
@@ -75,10 +75,10 @@
        - name: Run a Factory with "Run Now" Button and Dashboard
          href: ./techguides/run-factory.md
    - name: Tutorials
-     href: ./test3.md
+     href: ./tutorials-assemble.md
      items:
-       - name: Jenkins Build 
-         href: ./jenkins-build-video.md       
+       - name: Coming soon 
+         href: ./setup-streams-video.md       
 - name: Troubleshooting
   href: ./techguides/troubleshooting.md
 - name: FAQs
