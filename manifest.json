@@ -62,6 +62,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "home/assemble.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/assemble.html",
+          "hash": "nsgk7r9sxMHcHtq1YhW/lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "home/benefits.md",
       "output": {
         ".html": {
@@ -134,6 +146,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "home/extend.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/extend.html",
+          "hash": "zPyAxqXGdCjKEswDIhGQ0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "home/faq.md",
       "output": {
         ".html": {
@@ -151,6 +175,30 @@
         ".html": {
           "relative_path": "home/fcm-configuration-video.html",
           "hash": "HEuUYiIYS1GTt/ZgrYLlfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/how-to-assemble.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/how-to-assemble.html",
+          "hash": "F0FGwrBokH8V4/ew95rw7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/how-to-extend.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/how-to-extend.html",
+          "hash": "5B2aHX0pP7xOcvh/vQTe8w=="
         }
       },
       "is_incremental": false,
@@ -385,6 +433,18 @@
       "output": {
         "resource": {
           "relative_path": "home/scripts/js-yaml.min.js"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/setup-streams-video.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/setup-streams-video.html",
+          "hash": "ihFVyoW1QB9gyD2s/76aRg=="
         }
       },
       "is_incremental": false,
@@ -4323,60 +4383,39 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "home/test.md",
-      "output": {
-        ".html": {
-          "relative_path": "home/test.html",
-          "hash": "kv9OvHka96EhEqMuQdZHfg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "home/test1.md",
-      "output": {
-        ".html": {
-          "relative_path": "home/test1.html",
-          "hash": "AMYOO+4ItfnHUQ+V479zBg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "home/test2.md",
-      "output": {
-        ".html": {
-          "relative_path": "home/test2.html",
-          "hash": "sf4f9NSmuY9HUgTvVmJAoQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "home/test3.md",
-      "output": {
-        ".html": {
-          "relative_path": "home/test3.html",
-          "hash": "P4Hgs5BpXOIWlFM7yf+T6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Toc",
       "source_relative_path": "home/toc.yml",
       "output": {
         ".html": {
           "relative_path": "home/toc.html",
-          "hash": "9FVQ2Lg+HXx8BCcu08gITg=="
+          "hash": "HVEEcRzNwsUtiUxdW9ehOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/tutorials-assemble.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/tutorials-assemble.html",
+          "hash": "DYpn+T2MsYtpWE2SDiQDzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/tutorials-extend.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/tutorials-extend.html",
+          "hash": "k+5ogKl+U8YFN3lkedkykg=="
         }
       },
       "is_incremental": false,
@@ -4445,7 +4484,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "xBTZbG0JcdakW7gKPoTB1w=="
+          "hash": "2MlnlmMjnNYM85litEO/Zw=="
         }
       },
       "is_incremental": false,
@@ -4477,15 +4516,6 @@
           "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
-        "RestApiDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
@@ -4493,6 +4523,15 @@
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
           "incrementalPhase": "build"
         }
       }
