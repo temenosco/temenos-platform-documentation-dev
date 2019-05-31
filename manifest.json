@@ -406,6 +406,18 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "home/run-factory-video.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/run-factory-video.html",
+          "hash": "d1ba6OtKzn/nJERFmkJFtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "home/scripts/getTemplateDetails.js",
       "output": {
@@ -440,11 +452,59 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "home/setup-components-products-video.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/setup-components-products-video.html",
+          "hash": "H4nTYZqRAylivisikuaNTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/setup-factories-video.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/setup-factories-video.html",
+          "hash": "CRlZcKTRTwO3ncSou+QZUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/setup-stages-video.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/setup-stages-video.html",
+          "hash": "sb6RM3PHXQEHwqEchvjKTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "home/setup-streams-video.md",
       "output": {
         ".html": {
           "relative_path": "home/setup-streams-video.html",
           "hash": "ihFVyoW1QB9gyD2s/76aRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "home/setup-testcases-video.md",
+      "output": {
+        ".html": {
+          "relative_path": "home/setup-testcases-video.html",
+          "hash": "/hL5kfqWhhI7yS26tFNBYw=="
         }
       },
       "is_incremental": false,
@@ -4383,15 +4443,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "home/toc.yml",
       "output": {
         ".html": {
           "relative_path": "home/toc.html",
-          "hash": "HVEEcRzNwsUtiUxdW9ehOg=="
+          "hash": "bMtIVcIJiX1doX1jdjgtjg=="
         }
       },
       "is_incremental": false,
@@ -4484,7 +4541,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2MlnlmMjnNYM85litEO/Zw=="
+          "hash": "tXUdpJ5u+xkah9TGTrGp1w=="
         }
       },
       "is_incremental": false,
@@ -4520,11 +4577,6 @@
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "RestApiDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -4532,6 +4584,11 @@
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
