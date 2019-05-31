@@ -38,7 +38,7 @@
        - name: Configure and Use FCM Application
          href: ./techguides/fcm-configuration.md 
    - name: Tutorials
-     href: ./test1.md
+     href: ./tutorials-extend.md
      items:
        - name: Jenkins Build 
          href: ./jenkins-build-video.md
@@ -77,8 +77,18 @@
    - name: Tutorials
      href: ./tutorials-assemble.md
      items:
-       - name: Coming soon 
-         href: ./setup-streams-video.md       
+       - name: Setup Streams 
+         href: ./setup-streams-video.md
+       - name: Setup Stages 
+         href: ./setup-stages-video.md
+       - name: Setup Components and Products 
+         href: ./setup-components-products-video.md
+       - name: Setup Factories 
+         href: ./setup-factories-video.md
+       - name: Setup Testcases 
+         href: ./setup-testcases-video.md    
+       - name: Run Factory 
+         href: ./run-factory-video.md         
 - name: Troubleshooting
   href: ./techguides/troubleshooting.md
 - name: FAQs

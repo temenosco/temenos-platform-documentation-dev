@@ -3,9 +3,6 @@
 
 **Temenos Continuous Deployment** is a suite of products offered by Temenos Cloud; it is a *Platform as a Service (PaaS)* that provides individuals and teams with the ability to manage and configure their own instances of Temenos applications and approved 3rd party Plug & Play applications from the Temenos ecosystem. 
 
-<span style="color:#010466;font-weight:1000;font-size:20pt"><a href="./home/overview.md" target="_blank">Get started with TCD</a></span> and check our user guides, tutorials and more information about the platform.
-
-
 
 <br>
 
@@ -26,8 +23,6 @@
 - Bring together configuration and local developments, with published versions of Temenos software and run through automated regression testing. 
 
 - Triage results for continuous development.
-
-- Run your banking service from the cloud in Temenos Cloud SaaS.  
 
 - Expert managed services provide full mission-critical service delivery leaving you to focus on your customers.
 
@@ -121,3 +116,12 @@ Changes are only migrated to production following certain quality check procedur
 &nbsp;<span style="color:#010466;font-weight:1000;font-size:16pt">Patching and Upgrades Process</span>
 
 Patching and upgrades of software/libraries used by the TCD platform is currently performed on an ad-hoc basis depending on criticality and feature requirements.
+
+<br>
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;<span style="color:#010466;font-weight:1000;font-size:20pt"><a href="./home/overview.md" target="_blank">Get started with TCD</a></span> and check our user guides, tutorials and more information about the platform.
